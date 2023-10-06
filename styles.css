@@ -138,3 +138,28 @@ h3 {
   font-size: 24px;
   font-weight: bold;
 }
+
+/* CTA Section */
+
+.cta-section {
+  display: flex;
+  font-size: 24px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  margin: 100px 200px;
+  padding: 50px 100px;
+  border-radius: 16px;
+  justify-content: space-between;
+}
+
+p.subtext {
+  font-size: 18px;
+}
+
+.cta-button {
+  border: 2px solid #e5e7eb;
+}
+
+.cta-button:hover {
+  background-color: #3677df;
+}
