@@ -8,7 +8,7 @@
   border: none;
 }
 
-/* Header Styles */
+/* Header */
 
 header {
   display: flex;
@@ -33,7 +33,7 @@ a {
   font-size: 18px;
 }
 
-/* Hero Styles */
+/* Hero Section */
 
 .hero-section {
   background-color: #1f2937;
@@ -48,7 +48,7 @@ h2 {
   color: #f9faf8;
 }
 
-p,
+.hero-content p,
 button {
   font-size: 18px;
   color: #e5e7eb;
@@ -78,4 +78,38 @@ button:hover {
   background-color: #6d747d;
   padding: 0 100px;
   color: white;
+}
+
+/* Info Section */
+
+.info-section {
+  text-align: center;
+  padding: 50px 200px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2927;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  max-width: 200px;
+}
+
+/* place-holder for image or illustration */
+.box {
+  height: 200px;
+  padding: 30px;
+  border: 5px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 10px;
 }
