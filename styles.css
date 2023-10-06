@@ -98,6 +98,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -107,9 +108,33 @@ h3 {
 
 /* place-holder for image or illustration */
 .box {
+  min-width: 200px;
   height: 200px;
   padding: 30px;
   border: 5px solid #3882f6;
   border-radius: 16px;
   margin-bottom: 10px;
+}
+
+/* Quote Section */
+
+.quote-section {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  padding: 150px 200px;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.author {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
 }
